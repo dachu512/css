@@ -1,0 +1,65 @@
+html {
+    font-size: 35px;
+}
+
+
+div#container {
+    background-color: lavenderblush;
+    padding: 20px;
+    
+    font-size: 30px;
+    color: #fff;
+  
+}
+#container div {
+    margin: 5px;
+    background-color: red;
+}
+
+div#piksele {
+    width: 400px;
+   
+}
+
+#em {
+    width: 5em;
+   
+}
+#procenty {
+    width: 20%;
+}
+
+#vw {
+    width: 30vw;
+}
+
+#vh {
+    width: 30vh;
+}
+
+#vmax {
+    width: 30vmax;
+}
+
+#vmin {
+    width: 20vmin;
+}
+#inch {
+    width: 2in;
+}
+
+#cm {
+    width: 10cm;
+}
+
+#mm {
+    width: 50mm ;
+}
+
+#pt {
+    width: 50pt;
+}
+
+#pc {
+    width: 10pc;
+}

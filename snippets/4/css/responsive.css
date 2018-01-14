@@ -1,0 +1,23 @@
+video {
+    width: 100%;
+}
+@media all and (max-width: 992px) {
+    
+    video{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px) {
+  
+    video {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    video {
+   
+        width: 100%;
+    }
+}

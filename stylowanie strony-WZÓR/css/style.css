@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* jezeli kod sie powtarza, staramy sie go wyodrebniac, albo do klas, albo do elementow - przyklad z h2 z sekcji about i sekcji contact */
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* nav */
+#menu {
+    background-color: #000000;
+    text-align: center;
+    height: 50px;
+}
+
+#menu ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+/* zeby wysrodkowac elementy liniowe/liniowo-blokowe w pionie (ALE TYLKO TAKIE, KTORE ZAJMUJA 1 WIERSZ!), mozemy ustawic im wysokosc linii (line-height) rowna wysokosci elementu nadrzednego */
+#menu ul .menu-item {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 20px;
+}
+
+#menu ul .menu-item a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* header */
+#header {
+    position: relative;
+    text-align: center;
+}
+
+#header img {
+    width: 100%;
+}
+
+/* jezeli zmieniamy pozycje ze statycznej na absolute/fixed, nalezy pamietac, aby temu elementowi ustawic szerokosc! */
+#header #main-header-text {
+    position: absolute;
+    top: 50%;
+    color: #FFFFFF;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* sekcja about */
+#about {
+    margin: 30px 0;
+    padding: 0 50px;
+    text-align: center;
+}
+
+/* marginesy maja to do siebie, ze na siebie nachodza. Pod uwage brany jest wiekszy margines! */
+/*
+#about #about-header {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+*/
+
+/* footer */
+#contact {
+    background-color: #000000;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+#contact #contact-header {
+/*
+    font-size: 30px;
+    margin-bottom: 20px;
+*/
+    color: #FFFFFF;
+}
+
+#contact #contact-content {
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+#contact #contact-content a {
+    color: #FFFFFF;
+}
+
+#menu ul .menu-item a:hover,
+#contact #contact-content a:hover {
+    color: #999999;
+}

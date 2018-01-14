@@ -1,0 +1,29 @@
+body {
+    background-color: #f9ff19;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+li.fa-android::before {
+    content: '\f17b';
+    font-family: fontAwesome;
+    color: lime;
+}
+
+.fa-android {
+    color: lime;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+

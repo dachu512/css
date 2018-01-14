@@ -1,0 +1,55 @@
+* {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    display: block;
+}
+.rotate {
+    width: 400px;
+    height: 250px;
+    background-image: url(../2-jezioro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    transition: 2s;
+
+}
+
+.rotate:hover {
+    transform: rotate(30deg); 
+
+}
+
+.translate {
+    width: 400px;
+    height: 250px;
+    background-image: url(../2-jezioro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    transition: 2s;
+
+}
+
+.translate:hover {
+    transform: translate(100px,50px); 
+
+}
+
+.scale {
+    width: 400px;
+    height: 250px;
+    background-image: url(../2-jezioro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    transition: 2s;
+
+}
+
+.scale:hover {
+    transform: scale(1.5); 
+
+}
+

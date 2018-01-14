@@ -1,0 +1,20 @@
+body {
+    background-color: #f9ff19;
+}
+
+input[type="text"]:-ms-input-placeholder {
+        color:orangered;
+}
+
+input[type="text"]::-moz-placeholder {
+        color:orangered;
+}
+
+input::placeholder {
+    color:orangered;
+    font-family: courier;       
+}
+
+
+
+

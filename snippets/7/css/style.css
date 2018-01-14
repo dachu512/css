@@ -1,0 +1,27 @@
+body {
+    background-color: #f9ff19;
+}
+
+a {
+    font-size: 20px;
+    color:darkviolet;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a[href$=".doc"] {
+        color: lime;
+}
+
+a[href$=".docx"] {
+        color: lime;
+}
+
+a[href="https://akademia108.pl"] {
+       color: #ffffff;
+}
+

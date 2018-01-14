@@ -1,0 +1,32 @@
+body {
+    background-color: #f9ff19;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+i {
+    animation-name: serce;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    font-size: 50px;
+    color: orangered;
+}
+
+@keyframes serce {
+    0%,
+    100% {
+        transform: scale(1.7)
+    }
+    50% {
+        transform: scale(1.2)
+    }
+}
+
+
+
+
+

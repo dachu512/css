@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #fff;
+}
+
+.parallax {
+    background-image: url("../fotel.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.container {
+    height: 100px;
+    background-color: rgba(181, 75, 75, 0.51);
+    text-align: center;
+    line-height: 25px;
+    padding: 60px;
+}

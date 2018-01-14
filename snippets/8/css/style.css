@@ -1,0 +1,32 @@
+body {
+    background-color: #f9ff19;
+}
+
+q[lang*='en'] , blockquote[lang*='en'] {
+    quotes: "*" "*";
+}
+
+
+q([lang*='en'] , blockquote[lang*='en'])::before {
+    content: "*" "*";
+}
+
+q([lang*='en'] , blockquote[lang*='en'])::after {
+    content: "*" "*";
+}
+
+q:not([lang*='en']) , blockquote:not([lang*='en']) {
+    quotes: "\0022" "\0022";
+}
+
+
+q:not([lang*='en']) , blockquote:not([lang*='en'])::before {
+    content: open-quote;
+}
+
+q:not([lang*='en']) , blockquote:not([lang*='en'])::after {
+    content: close-quote;
+}
+
+
+

@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #c60054;     
+}
+
+.kurtyna {  
+   position: relative;
+   width: 100%;
+   height: 50vh;
+   animation-duration: 2s;
+   animation-iteration-count: 1;
+}
+
+.top {
+    background-color: rgba(149, 149, 149, 0.63);
+    height: 50vh;
+    animation-name: top-down;
+}
+
+.bottom {
+    position: absolute;
+    background-color: rgba(183, 162, 182, 0.79);
+    height: 50vh;
+    top: 50%;
+    animation-name: bottom-up;
+}
+
+@keyframes top-down {
+    0% {
+        height: 0vh;
+    }
+
+    100% {
+        height: 50vh;
+    }
+}
+
+@keyframes bottom-up {
+    0% {
+        top: 100%;
+    }
+
+    100% {
+        top: 50%;
+    }
+
+}
+

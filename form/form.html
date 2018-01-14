@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+<form action="https://formspree.io/wbzwojciechzalewski@gmail.com" method="POST">
+    <label for="imie">Imię:</label>
+    <input type="text" name="imie" id="imie">
+    <label for="nazwisko">Nazwisko:</label>
+    <input type="text" name="nazwisko" id="nazwisko">
+    <label for="mail">E-mail:</label>
+    <input type="email" name="email" id="email">
+    <label for="telefon">Telefon:</label>
+    <input type="number" name="telefon" id="telefon">
+    <label for="miasto">Wybierz miasto:</label>
+    <select name="miasto" id="miasto">            
+                <option value="krakow">Kraków</option>
+                <option value="warszawa" selected>Warszawa</option>
+                <option value="gdansk">Gdańsk</option>
+    </select>
+    <label for="plec">Wybierz płeć:</label>
+    <label for="male"><input type="radio" name="plec" id="male">Mężczyzna</label>
+    <label for="female"><input type="radio" name="plec" id="female">Kobieta</label>
+    <label for="wiadomosc">Wiadomość:</label>
+    <textarea maxlength="1000" name="wiadomosc" id="wiadomosc"  rows="9"></textarea>
+    <label for="zgoda"><input type="checkbox" name="zgoda" value="zgoda" id="check">Wyrażam zgodę na przetwarzanie moich danych osobowych</label>
+    <input type="submit" value="send" id="send">
+
+</form>
+</body>
+
+</html>

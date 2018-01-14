@@ -1,0 +1,22 @@
+.products {
+}
+
+@media all and (max-width: 992px) {
+
+    .product {
+        width: 44%;
+    }
+
+    #product-3 {
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width: 448px) {
+    .product {
+        width: 80%;
+    }
+    .product:nth-child(2n+2) {
+        margin-left: 0px;
+    }
+}

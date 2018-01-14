@@ -1,0 +1,22 @@
+body {
+    background-color: #f9ff19;
+}
+
+footer {    
+    width: 100%;
+    height: 30px;
+    background-color: blueviolet;
+    position:fixed;
+    bottom:0;
+    left: 0;
+}
+
+footer > p {
+    padding-left: 25px;
+    font-weight: bold;
+    line-height: 0px;
+}
+
+
+
+

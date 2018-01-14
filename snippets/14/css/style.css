@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(201, 101, 151, 0.72);
+}
+.box {
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.box-in {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+
+.front {
+    background-color: #55002e;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.back {
+    background-color: rgba(186, 186, 186, 0.74);
+    transform: rotateY(180deg);
+}
+
+.box:hover .front {
+    transform: rotateY(180deg);
+}
+
+.box:hover .back {
+    transform: rotateY(0deg);
+}

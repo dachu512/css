@@ -1,0 +1,33 @@
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.78);
+    overflow: hidden;
+    position: absolute;
+}
+
+.number {
+    animation-name: odliczanie;
+    animation-duration: 11s;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(10);
+}
+
+.number div {
+    width: 200px;
+    float: right;
+    font-size: 36px;
+    color: #ff6d83;
+    text-align: center;
+    line-height: 200px;
+}
+
+@keyframes odliczanie {
+    0% {
+        margin-right: 0px;
+    }
+
+    100% {
+        margin-right: -2000px;
+    }
+}

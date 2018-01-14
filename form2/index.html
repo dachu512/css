@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>formularz-2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="formularz">
+
+        <header>
+            <h1>A Simple Form</h1>
+            <h2>Form fundamentals</h2>
+        </header>
+
+        <form action="https://formspree.io/wbzwojciechzalewski@gmail.com" method="POST" autocomplete="on">
+            <fieldset>
+                <legend id="field-1">Customer Info:</legend>
+                    <label for="name">Name:  </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" autofocus required><br>
+                        <br>
+                    <label for="telephone">Telephone:  </label>
+                    <input type="tel" name="telephone" id="telephone" placeholder="(1-234-567-8910)" 
+                       pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+                        <br>
+                    <label for="e-mail">Email adress:  </label>
+                    <input type="email" name="e-mail" id="e-mail" placeholder="Enter your e-mail adress"  required  >
+            <br>
+            </fieldset>
+            <br>
+            
+               <fieldset>
+                <legend id="field-2">Books</legend>
+                    <input type="text" id="ksiazka" list="ksiazki" >
+                        <datalist id="ksiazki">    
+                            <option value="book1">book 1</option>
+                            <option value="book2">book 2</option>
+                            <option value="book3">book 3</option>
+                            <option value="book4">book 4</option>
+                            <option value="book5">book 5</option>
+                        </datalist> 
+                        <label for="quantity">Quantity (Maximum 5):</label>  <input type="number" name="quantity" id="quantity" min="1" max="5">
+                </fieldset>
+
+            <div id="submit-button">
+                <input type="submit" value="Submit" id="submit">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

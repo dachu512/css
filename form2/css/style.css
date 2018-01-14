@@ -1,0 +1,79 @@
+body {
+    background-color: #56687F;
+}
+
+#formularz {
+    background-color: #1C2129;
+    color: #9BBAE5;
+    font-family: sans-serif;
+    width: 65%;
+    font-size: 11px;
+}
+
+fieldset {
+    border: 1px solid #ADCFFF;
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+input {
+    background-color: #ACCAFF;
+    border: 1px solid #ADCFFF;
+    font-size: 11px;
+}
+
+header {
+    margin-left: 10px;
+}
+
+h2 {
+    margin-top: -10px;
+    font-style: italic;
+    font-size: 15px;
+    color: #8198BF;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+#submit {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1C2129;
+    margin-bottom: 75px;
+
+}
+
+#submit-button {
+    padding-left: 10px;
+
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    padding-left: 40px;
+
+}
+
+#ksiazka {
+    margin-left: 40px;
+    margin-top: 3px;
+    width: 350px;
+
+}
+
+#quantity {
+    width: 140px;
+}
+
+#name,#telephone,#e-mail {
+    width: 380px;
+}

@@ -1,0 +1,48 @@
+@media all and (min-width: 1171px) {
+    
+    #tresc {
+        position: absolute;
+        top: 50%;
+        left: 2%;
+    }
+}
+
+@media all  and (max-width: 1170px) {  
+    
+    #kontener {
+        width: 100%;
+        height: 70vh;
+        background-image: url(../img/man-2.jpg);
+        background-size: cover;
+        position: relative;
+}    
+    #tresc {
+        position: absolute;
+        top: 20%;
+        left: 65%;
+    }
+}
+
+@media all and (max-width: 992px) {
+    
+     #kontener {  
+        width:100%;
+        height: 50vh;
+        background-image: url(../img/man-1.jpg);
+        background-size: cover;
+        background-position: center top;
+        background-repeat:no-repeat;
+    
+}
+    #tresc { 
+        color:black;
+        text-align: center;
+        top:60%;
+        left:50%;
+        transform: translate(-50%,-50%); 
+
+}
+    
+
+
+    

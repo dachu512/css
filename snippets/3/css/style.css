@@ -1,0 +1,12 @@
+body {
+    background-color: #fff;
+    margin: 0;
+}
+
+#linear {
+    width:width: 100%;
+    height:100vh;
+    background: linear-gradient(to bottom, red, orange, yellow, lime, blue, purple, fuchsia)
+}
+
+

@@ -1,0 +1,49 @@
+* {    
+    margin-right: auto;
+    margin:30px auto 30px auto ;
+}
+
+
+
+
+#red {
+    background-color: red;
+    width:150px;
+    height:150px;
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+#blue {
+    background-color: blue;
+    width:5px;
+    height:0px;
+    transition-property: height;
+    transition-duration: 2s;
+}
+
+#green {
+    background-color: green;
+    width:150px;
+    height:150px;
+    transition-property: width;
+    transition-property: height;
+    transition-duration: 2s;
+}
+
+#red:hover {
+    width: 300px; 
+
+}
+
+#red:hover {
+    height: 300px; 
+
+}
+
+#green:hover {
+    width: 300px; 
+    height: 300px; 
+
+
+}

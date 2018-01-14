@@ -1,0 +1,93 @@
+.container {
+    width: 450px;
+    height: 250px;
+    background-color: #98001d;  
+    font-family: 'Cinzel', serif;    
+    font-weight: 400;
+}
+
+.box {
+    position: relative;
+    top: 40%;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    font-size: 28px;
+}
+
+.items {
+    display: inline-block;
+    margin-left: -5px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    opacity: 0.8;
+}
+
+.item-1 {
+  animation-name: item-1;
+}
+
+@keyframes item-1 {
+  0% { opacity: 0.8; } 
+  50% { opacity: 0.1; }
+  100% { opacity: 0.8; }   
+}
+
+.item-2 {
+  animation-name: item-2;
+  animation-delay: 0.2s;
+}
+
+@keyframes item-2 {
+  0% { opacity: 0.8; } 
+  50% { opacity: 0.1; }
+  100% { opacity: 0.8; }   
+}
+
+.item-3 {
+  animation-name: item-3;
+  animation-delay: 0.4s;
+}
+
+@keyframes item-3 {
+  0% { opacity: 0.8; } 
+  50% { opacity: 0.1; }
+  100% { opacity: 0.8; }   
+}
+
+.item-4 {
+  animation-name: item-4;
+  animation-delay: 0.6s;
+} 
+
+@keyframes item-4 {
+  0% { opacity: 0.8; } 
+  50% { opacity: 0.1; }
+  100% { opacity: 0.8; }   
+}
+
+.item-5 {
+  animation-name: item-5;
+  animation-delay: 0.8s;
+  margin-left: 5px;
+}
+
+@keyframes item-5 {
+  0% { opacity: 0.8; } 
+  50% { opacity: 0.1; }
+  100% { opacity: 0.8; }   
+}
+
+.item-6 {
+  animation-name: item-6;
+  animation-delay: 1s;
+}
+
+@keyframes item-6 {
+  0% { opacity: 0.8; }
+  50% { opacity: 0.1; }
+  100% { opacity: 0.8; }   
+}
+

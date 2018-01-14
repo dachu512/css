@@ -1,0 +1,23 @@
+iframe {
+    width: 100%;
+}
+@media all and (max-width: 992px) {
+    
+    iframe {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px) {
+  
+    iframe {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #gallery {
+   
+        width: 100%;
+    }
+}

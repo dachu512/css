@@ -1,0 +1,139 @@
+#zew {
+    width: 600px;
+    height: 600px;
+    background-color:floralwhite;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.kwadrat {
+    width:200px;
+    height:200px; 
+    position:absolute;
+    border: 4px floralwhite solid;
+}
+
+.kolo {
+    width:100px;
+    height:100px;
+    position:relative;
+    border: 1px black solid;
+    border-radius:50%;
+}
+
+#kw-czerwony {
+    background-color: red;
+}
+
+#kw-niebieski {
+    background-color: blue;
+    left: 200px;
+    
+}
+
+#kw-zielony {
+    background-color: green;
+    left: 400px;
+}
+
+#kw-zolty {
+    background-color: yellow;
+    top: 200px;
+}
+
+#kw-czarny {
+    background-color: black;
+    left: 200px;
+    top: 200px;
+}
+
+#kw-orange {
+    background-color: orange;
+    left: 400px;
+    top: 200px;
+}
+
+#kw-fioletowy {
+    background-color: darkviolet;
+    top: 400px;
+}
+
+#kw-szary {
+    background-color: dimgray;
+    left: 200px;
+    top: 400px;
+}
+
+#kw-pink {
+    background-color: lightpink;
+    left: 400px;
+    top: 400px;
+}
+
+#kolo-pink {
+    background-color: lightpink;
+    margin-right: auto;
+    margin-left: auto;
+    top: 25%;
+}
+
+#kolo-szare {
+    background-color:dimgray;
+    margin-right: auto;
+    margin-left: auto;x;
+    top: 25%;
+}
+
+#kolo-fioletowe {
+    background-color: darkviolet;
+    margin-right: auto;
+    margin-left: auto;
+    top: 25%;
+}
+
+#kolo-zielone {
+    background-color: green;
+    margin-right: auto;
+    margin-left: auto;
+    top: 25%;
+}
+
+#kolo-czerwone {
+    background-color: red;
+    margin-right: auto;
+    margin-left: auto;
+    top: 25%;
+}
+
+#kolo-niebieskie {
+    background-color: blue;
+    margin-right: auto;
+    margin-left: auto;
+    top: 25%;
+}
+
+#kolo-orange {
+    background-color: orange;
+    margin-right: auto;
+    margin-left: auto;
+    top: 25%;
+}
+
+#kolo-zolte {
+    background-color: yellow;
+    margin-right: auto;
+    margin-left: auto;
+    top: 25%;
+}
+
+#kolo-czarne {
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    top: 25%;
+}
+
+
+

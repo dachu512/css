@@ -1,0 +1,239 @@
+/*selector uniwersalny - lapie wszystkie elemety na stronie* tworzymy za pomoca gwiazdki/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size:30px;
+}
+
+#testowy {
+    background-color: aqua;
+}
+
+.testowy-inner {
+    color: green;
+    font-size: 36px;
+}
+
+/*selektor potomka*/
+
+#selektor-potomka p {
+    font-size: 48px;
+    color: red;
+
+}
+
+#selektor-dziecka > p {
+    font-size: 40px;
+    color: violet;
+
+}
+
+#selektor-braci span + p {
+    color: black;
+    background-color: aqua;
+
+}
+
+/*pseudoelementy*/
+
+#pseudoelementy h1::before {
+    content: 'lorem ';
+    color: red;
+
+}
+
+#pseudoelementy h1::after {
+    content: ' lorem';
+    color: green;
+
+}
+
+#pseudoelementy h1::first-letter {
+    color: yellow;
+}
+
+#pseudoelementy .first-line::first-line {
+    color: chocolate;
+}
+
+/*pseudoklasa visited*/
+
+#linki a:visited {
+    color: pink;
+}
+
+/*pseudoklasa :hover*/
+
+#linki a:hover {
+    color: red;
+}
+
+#linki a:active {
+    color: orange;
+}
+
+#inputy input {
+    width: 99%;
+    margin-bottom: 20px;
+}
+
+#inputy input:focus {
+    border: 3px solid red;
+}
+
+/*pseudoklasa target - element do ktorego prowadzi kotwica*/
+
+:target {
+    border: 1px solid black;
+}
+
+div {
+    background-color: grey;
+}
+
+div:lang(pl) {
+    background-color: yellow;
+
+}
+
+#lista-dzieci ul .list-item:first-child {
+    font-size: 30px;
+    color: red;
+}
+
+#lista-dzieci ul .list-item:last-child {
+    font-size: 30px;
+    color: blue;
+}
+
+#jedyne-dziecko span:only-child {
+    font-size: 30px;
+    font-style: italic;
+    color: green;
+
+}
+
+/*
+div:empty {
+    display: block;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    
+}
+*/
+
+/* pseudoklasa nth-child */
+
+#kontener .inner {
+    display: inline-block;
+    height: 300px;
+    background-color: red;
+    margin-bottom: 20px;
+    width: 33%;
+    float: left;
+    margin-right: 0.5%;
+}
+
+#kontener .inner:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+#kontener .inner:nth-child(even) {
+    background-color: yellow;
+}
+
+
+.clear {
+    clear: both;
+    display: block;
+    width: 100%;
+
+}
+
+input[type] {
+    background-color: green;
+}
+
+input[type="tel"] {
+    background-color: red;
+}
+
+input[type="submit"] {
+    background-color: orange;
+}
+
+input[type ~ ="opis"] {
+    background-color: black;
+}
+
+/*
+selector[att*="val"] - Reprezentuje element mający atrybut att, którego wartość
+zawiera przynajmniej jedno wystąpienie łańcucha „val”.
+*/
+
+/* elementy które rozpoczynaja sie ciagiem znakow */
+
+input[type^="pocz"] {
+    background-color: violet;
+}
+
+/* elementy które koncza sie ciagiem znakow */
+
+input[type$="ec"] {
+    background-color: blue;
+}
+
+img {
+    width: 200px;
+}
+
+#floated img {
+
+    float: left;
+    clear: both;
+
+}
+
+#tranzycje .inner-1 {
+
+    background-color: green;
+    transition: all 0.4s;
+}
+
+#tranzycje .inner-1:hover {
+    background-color: blue;
+    width: 600px;
+
+}
+
+/*
+#tranzycje .inner-2 {
+    height: 300px;
+    background-color: red;
+}
+*/
+
+#tlo {
+
+    width: 50%;
+    height: 600px;
+    padding: 50px;
+    color:white;    
+    font-size:30px;
+    overflow: auto;
+    border:10px solid #00a0be;
+/*
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 0, 39, 0.67)),
+    url("https://pp.userapi.com/c629327/v629327473/db66/r051joYFRX0.jpg");
+    background-repeat: no-repeat;    
+    background-size: cover;
+*/
+    background: url("https://pp.userapi.com/c629327/v629327473/db66/r051joYFRX0.jpg") no-repeat scroll;
+    background-size: cover;  
+
+}
+
