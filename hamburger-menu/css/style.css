@@ -1,0 +1,68 @@
+body {
+    background-color: whitesmoke;
+    
+}
+
+.hamburger {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 200px;
+}
+
+#first-line,
+#second-line,
+#third-line
+{
+    width: 25px;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.81);
+    margin-top: 5px;
+    opacity: 1;
+}
+
+#first-line.cross
+ {
+    transform: rotate(45deg);
+     
+}
+
+#second-line.cross {
+    transform: rotate(-45deg);
+    
+}
+
+#third-line.hide {
+    opacity: 0;
+}
+
+.ham-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 200px;
+    background-color: palevioletred;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.ham-list {
+    list-style: none;
+}
+
+.ham-item {
+    font-family: sans-serif;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#ham-content.show-list {
+    opacity: 1;
+}
