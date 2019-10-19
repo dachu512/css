@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero-img{
+    background-image: url('img/image1.jpg');
+    background-position: 0px -73px;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.footer-skew{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    border-top: 15px solid transparent;
+    border-bottom: 5px solid rgba(233, 80, 200, 0.863);
+    border-left: 100vw solid rgba(233, 80, 200, 0.863);
+}
+
+footer{
+    background-color: rgba(233, 80, 200, 0.863);
+    width: 100%;
+    height:50px;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(233, 80, 200, 0.863);
+    border-bottom: 2px solid  rgba(181, 39, 150, 0.863)
+}
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > ul > li  {
+    list-style: none;
+    padding-top:10px;
+    width: 100px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.drop-list {
+    background-color: #a72d7cad;
+    color: #fff;
+    display: none;
+    width: 100px;
+}
+
+nav > ul > li:hover .drop-list{
+    display: block;
+}
+
+.drop-list > ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+.drop-list > ul > li {
+    padding-left: 15px;
+}
+
+.drop-list > ul > li:hover{
+    cursor: pointer;
+    background-color: #510f3aad;
+}
+
+.drop-list-double-col{
+    background-color: rgba(233, 80, 200, 0.863);
+    color: #fff;
+    width: 200px;
+    display: flex;
+}
+
+.drop-list-double-col > ul > li {
+    list-style: none;
+    line-height: 30px;
+}
+
+.drop-list-double-col > ul > li {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.drop-list-double-col-box{
+    display: none;
+    width: 200px;
+}
+
+nav > ul >li.item-new:hover .drop-list-double-col-box {
+    display: block;
+}
+
+.drop-list-double-col > .col-1 > li:hover,
+.drop-list-double-col > .col-2 > li:hover{
+    background-color:#510f3aad;
+    cursor: pointer;
+}
