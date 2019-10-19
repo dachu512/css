@@ -1,0 +1,79 @@
+.mieso{
+    position: absolute;
+    top: 7px;
+    left: 300px;
+    width: 0px;
+    height: 0px;
+    border-bottom: 63px solid red;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
+.drob{
+    position: absolute;
+    top: 70px;
+    left: 280px;
+    width: 80px;
+    height: 0px;
+    border-bottom: 30px solid rgb(255, 136, 0);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+.ryby{
+    position: absolute;
+    top: 100px;
+    left: 260px;
+    width: 120px;
+    height: 0px;
+    border-bottom: 30px solid rgb(245, 193, 22);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;  
+}
+.nabial{
+    position: absolute;
+    top: 130px;
+    left: 241px;
+    width: 159px;
+    height: 0px;
+    border-bottom: 30px solid rgb(182, 230, 164);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;  
+}
+.oleje{
+    position: absolute;
+    top: 160px;
+    left: 222px;
+    width: 197px;
+    height: 0px;
+    border-bottom: 30px solid rgb(92, 187, 129);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;  
+}
+.fasole{
+    position: absolute;
+    top: 190px;
+    left: 202px;
+    width: 237px;
+    height: 0px;
+    border-bottom: 30px solid rgb(30, 185, 90);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;  
+}
+.pieczywo{
+    position: absolute;
+    top: 220px;
+    left: 183px;
+    width: 276px;
+    height: 0px;
+    border-bottom: 30px solid rgb(23, 104, 54);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;  
+}
+
+div{
+    text-align: center;
+    line-height: 30px;
+}
+span {
+    transform: translate(-18px, 37px);
+    position: absolute;
+}
