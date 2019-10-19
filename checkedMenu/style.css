@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+    width: 126px;
+    border-radius: 24px;
+}
+ul {
+    display: none;
+    width: 119.67px;
+    background-color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    list-style: none;
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+li:hover{
+    background-color: rgb(218, 60, 60);
+}
+
+input{
+    display: none;
+}
+
+input:checked~label{
+    background-color: rgb(165, 100, 3);
+}
+
+input#content-1:checked~ul.first-list{
+    display: block;
+}
+input#content-2:checked~ul.second-list{
+    display: block;
+}
+input#content-3:checked~ul.third-list{
+    display: block;
+}
+input#content-3:checked~label[for="content-3"]{
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius: 0px;
+}
+
+label {
+    background-color: rgb(255, 153, 0);
+    width: 120px;
+    height:30px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+label[for="content-1"]{
+    border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+}
+
+
+label[for="content-3"]{
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* ul.third-list li:last-child{
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+} */
+
+ul.third-list{
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+
